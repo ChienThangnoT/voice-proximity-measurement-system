@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Repository\" />
   </ItemGroup>
 
