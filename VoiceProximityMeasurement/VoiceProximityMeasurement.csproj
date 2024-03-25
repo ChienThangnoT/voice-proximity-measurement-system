@@ -8,8 +8,4 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\VoiceProximityMeasurementSystem.Repository\VoiceProximityMeasurementSystem.Repository.csproj" />
-  </ItemGroup>
-
 </Project>
