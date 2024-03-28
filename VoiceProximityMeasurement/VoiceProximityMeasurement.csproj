@@ -9,6 +9,28 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Img\down.jpg" />
+    <None Remove="Img\left.jpg" />
+    <None Remove="Img\right.jpg" />
+    <None Remove="Img\up.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Img\down.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\left.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\right.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\up.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.CognitiveServices.Speech" Version="1.36.0" />
   </ItemGroup>
 

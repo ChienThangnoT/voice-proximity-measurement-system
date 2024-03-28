@@ -1,5 +1,7 @@
-﻿using System;
+﻿using AutoGenerateSnellenVisionChart;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
@@ -73,6 +75,17 @@ namespace VoiceProximityMeasurement.ViewModel
             if (PropertyChanged != null)
             {
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            }
+        }
+
+        private ObservableCollection<ImageWrapper> _images = new ObservableCollection<ImageWrapper>();
+        public ObservableCollection<ImageWrapper> Images
+        {
+            get { return _images; }
+            set
+            {
+                _images = value;
+                OnPropertyChanged(nameof(Images));
             }
         }
         #endregion
