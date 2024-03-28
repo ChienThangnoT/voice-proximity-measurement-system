@@ -78,7 +78,7 @@ namespace VoiceProximityMeasurement
         {
             Dispatcher.Invoke(() =>
             {
-                CountdownText.Text = $"Đếm ngược: {secondsLeft}";
+                CountdownText.Text = $"Time out: {secondsLeft}";
             });
         }
 
