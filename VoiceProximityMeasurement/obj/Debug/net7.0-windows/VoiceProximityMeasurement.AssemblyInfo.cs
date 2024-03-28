@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VoiceProximityMeasurement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc358d0aadf5ec7d5dc6081061ee996bdb1bd557")]
 [assembly: System.Reflection.AssemblyProductAttribute("VoiceProximityMeasurement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VoiceProximityMeasurement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
