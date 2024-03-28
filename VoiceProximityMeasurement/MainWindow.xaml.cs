@@ -62,11 +62,24 @@ namespace VoiceProximityMeasurement
         private async void GenerateChart_Click(object sender, RoutedEventArgs e)
         {
             _mainVM.Images.Clear();
+            int countdownTime = 20;
             for (int i = 0; i < 8; i++)
             {
                 LoadRandomImages(i);
-                await Task.Delay(2000); // Wait for 2 seconds
+                for (int j = countdownTime; j >= 0; j--)
+                {
+                    UpdateCountdown(j);
+                    await Task.Delay(1000);
+                }
             }
+        }
+
+        private void UpdateCountdown(int secondsLeft)
+        {
+            Dispatcher.Invoke(() =>
+            {
+                CountdownText.Text = $"Đếm ngược: {secondsLeft}";
+            });
         }
 
         private void LoadRandomImages(int loop)

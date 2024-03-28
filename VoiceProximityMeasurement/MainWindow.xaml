@@ -29,7 +29,7 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        
+        <TextBlock Grid.Row="0" x:Name="CountdownText" Margin="10,79,0,0" Text="Time out: 00:00" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <TextBlock Grid.Row="0" Margin="10,200,0,0" TextWrapping="Wrap">Intermediate Result</TextBlock>
         <Border Grid.Row="1"  Margin="10,0,10,10" BorderThickness="1" BorderBrush="LightGray">
             <TextBlock   Text="{Binding Speech}"></TextBlock>
