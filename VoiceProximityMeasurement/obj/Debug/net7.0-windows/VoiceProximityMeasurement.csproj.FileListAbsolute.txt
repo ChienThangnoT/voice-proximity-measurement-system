@@ -100,3 +100,8 @@ W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Deb
 W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.kws.dll
 W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.kws.ort.dll
 W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.lu.dll
+W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement_Content.g.cs
+W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Img\down.jpg
+W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Img\left.jpg
+W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Img\right.jpg
+W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Img\up.jpg

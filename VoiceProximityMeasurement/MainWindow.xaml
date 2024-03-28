@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VoiceProximityMeasurement"
         mc:Ignorable="d"
-        Title="Voice Proximity Measurement" Height="450" Width="800">
-    <Grid Margin="0,198,0,0">
+        Title="Speech To Text Sample" Height="450" Width="800">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
@@ -16,7 +16,21 @@
             <RowDefinition Height="Auto"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="0" Margin="10,30,0,0" TextWrapping="Wrap">Intermediate Result</TextBlock>
+        <ListView Grid.Row="0" x:Name="ImageListView"  Margin="10,20,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" 
+                  ItemsSource="{Binding Images}">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Image Source="{Binding Bitmap}" Width="{Binding ImageWidth}" Height="{Binding ImageHeight}" Margin="5"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+        <TextBlock Grid.Row="0" Margin="10,200,0,0" TextWrapping="Wrap">Intermediate Result</TextBlock>
         <Border Grid.Row="1"  Margin="10,0,10,10" BorderThickness="1" BorderBrush="LightGray">
             <TextBlock   Text="{Binding Speech}"></TextBlock>
         </Border>
@@ -27,12 +41,12 @@
         </Border>
         <DockPanel Grid.Row="4"  Margin="10,0,10,0">
             <TextBlock>Status</TextBlock>
-            <TextBox Margin="10,0,0,0" Text="{Binding Status}" Background="#FFFCFFE9" Width="470"></TextBox>
+            <TextBox Margin="10,0,0,0" Text="{Binding Status}" Background="#FFFCFFE9"></TextBox>
         </DockPanel>
-        <StackPanel Grid.Row="5" Margin="0,10,0,0" Orientation="Horizontal" HorizontalAlignment="Center" Width="362">
+        <StackPanel Grid.Row="5" Margin="0,10,0,0" Orientation="Horizontal" HorizontalAlignment="Center">
             <Button  Background="White" Margin="0,0,20,15" Width="100" Click="Button_Click" Content="{Binding StartStop, Mode=TwoWay}"></Button>
-            <Button  Background="White" Margin="0,0,20,15" Width="100" Content="Next"/>
             <Button  Background="White" Margin="0,0,20,15" Width="100" Content="Clear" Click="ClearText"></Button>
+            <Button  Background="White" Margin="0,0,20,15" Width="100" Content="Generate Chart" Click="GenerateChart_Click"></Button>
         </StackPanel>
     </Grid>
 </Window>
