@@ -65,7 +65,7 @@ namespace VoiceProximityMeasurement
             for (int i = 0; i < 8; i++)
             {
                 LoadRandomImages(i);
-                await Task.Delay(2000); // Wait for 2 seconds
+                await Task.Delay(20000); // Wait for 20 seconds
             }
         }
 
@@ -86,6 +86,8 @@ namespace VoiceProximityMeasurement
 
             Random rng = new Random();
 
+            string loadedImageNames = "";
+
             // Choose 10 random images from the Img folder
             for (int i = 0; i < 6; i++)
             {
@@ -104,7 +106,20 @@ namespace VoiceProximityMeasurement
                     ImageWidth = newWidth,
                     ImageHeight = newHeight
                 });
+
+                string imageName = Path.GetFileNameWithoutExtension(randomImagePath);
+                loadedImageNames += imageName + ",";
             }
+            // Remove the trailing comma, if any
+            if (!string.IsNullOrEmpty(loadedImageNames))
+            {
+                loadedImageNames = loadedImageNames.TrimEnd(',');
+            }
+
+            // Append the concatenated image names to the LoadedImagesNames list
+            _mainVM.LoadedImagesNames.Add(loadedImageNames);
+
+            MessageBox.Show("Loaded image names: " + loadedImageNames);
         }
 
         private async void Button_Click(object sender, RoutedEventArgs e)

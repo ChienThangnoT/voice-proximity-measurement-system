@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xPlDRRu+/t3owAlhC2H4aVwspXX3CZ9gVBh5uBf85BikPvHvgykUZ02iKuGP4T0tQbI2N9DhdjJN8LjgPpq2EA==",
+  "dgSpecHash": "BkvdZRYyddmDSjZHbpOe1y6vnoE1xlPaEp6tBWstNuNB7wnb0FegvVt2j5RZFJoBOSyoUl5ZYkbZpY7anoEfVA==",
   "success": true,
-  "projectFilePath": "W:\\Ses7\\PRN221\\VoiceProximityMeasurementSystem\\VoiceProximityMeasurement\\VoiceProximityMeasurement.csproj",
+  "projectFilePath": "D:\\#HOC DE\\#StudyDocument\\Semester 7\\ASSIGNMENT\\VoiceProximityMeasurement\\VoiceProximityMeasurement.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.cognitiveservices.speech\\1.36.0\\microsoft.cognitiveservices.speech.1.36.0.nupkg.sha512"
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.cognitiveservices.speech\\1.36.0\\microsoft.cognitiveservices.speech.1.36.0.nupkg.sha512"
   ],
   "logs": []
 }
