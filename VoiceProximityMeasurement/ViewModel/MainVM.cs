@@ -42,7 +42,7 @@ namespace VoiceProximityMeasurement.ViewModel
         /// <summary>
         /// Indicates if the session is started or stopped
         /// </summary>
-        private string _startstop = "Start";
+        private string _startstop = "Start Speech";
         public string StartStop
         {
             get { return _startstop; }

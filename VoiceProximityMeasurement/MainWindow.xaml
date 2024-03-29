@@ -46,7 +46,7 @@
         </DockPanel>
         <StackPanel Grid.Row="5" Margin="0,10,0,0" Orientation="Horizontal" HorizontalAlignment="Center">
             <Button  Background="White" Margin="0,0,20,15" Width="100" Click="Button_Click" Content="{Binding StartStop, Mode=TwoWay}"></Button>
-            <Button  Background="White" Margin="0,0,20,15" Width="100" Content="Clear" Click="ClearText"></Button>
+            <Button  Background="White" Margin="0,0,20,15" Width="100" Content="Clear Text" Click="ClearText"></Button>
             <Button  Background="White" Margin="0,0,20,15" Width="100" Content="Generate Chart" Click="GenerateChart_Click"></Button>
 
             <Button Background="White" Margin="0,0,20,15" Width="150" Content="Result" IsEnabled="False" Click="OpenResult" x:Name="ResultButton"/>

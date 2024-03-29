@@ -156,9 +156,9 @@ namespace VoiceProximityMeasurement
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
             // Recognizer is in a stopped state
-            if (_mainVM.StartStop == "Start")
+            if (_mainVM.StartStop == "Start Speech")
             {
-                _mainVM.StartStop = "Stop";
+                _mainVM.StartStop = "Stop Speech";
 
                 _stopRecognition = new TaskCompletionSource<int>();
 
@@ -168,12 +168,12 @@ namespace VoiceProximityMeasurement
                 // Waits for completion
                 Task.WaitAny(new[] { _stopRecognition.Task });
             }
-            else if (_mainVM.StartStop == "Stop")
+            else if (_mainVM.StartStop == "Stop Speech")
             {
                 // Stops recog
                 await _recognizer.StopContinuousRecognitionAsync().ConfigureAwait(false);
 
-                _mainVM.StartStop = "Start";
+                _mainVM.StartStop = "Start Speech";
                 _mainVM.Speech = String.Empty;
             }
         }
