@@ -30,6 +30,7 @@
             </ListView.ItemTemplate>
         </ListView>
         <TextBlock Grid.Row="0" x:Name="CountdownText" Margin="10,79,0,0" Text="Time out: 00:00" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock x:Name="RemainingIterationsText" Margin="10,100,0,0" Text="Number of remaining measurements:   8" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Width="104"/>
         <TextBlock Grid.Row="0" Margin="10,200,0,0" TextWrapping="Wrap">Intermediate Result</TextBlock>
         <Border Grid.Row="1"  Margin="10,0,10,10" BorderThickness="1" BorderBrush="LightGray">
             <TextBlock   Text="{Binding Speech}"></TextBlock>
@@ -47,7 +48,9 @@
             <Button  Background="White" Margin="0,0,20,15" Width="100" Click="Button_Click" Content="{Binding StartStop, Mode=TwoWay}"></Button>
             <Button  Background="White" Margin="0,0,20,15" Width="100" Content="Clear" Click="ClearText"></Button>
             <Button  Background="White" Margin="0,0,20,15" Width="100" Content="Generate Chart" Click="GenerateChart_Click"></Button>
-            <Button Background="White" Margin="0,0,20,15" Width="150" Content="Export to Excel" Click="ExportToExcelButton_Click"></Button>
+
+            <Button Background="White" Margin="0,0,20,15" Width="150" Content="Result" IsEnabled="False" Click="OpenResult" x:Name="ResultButton"/>
+
         </StackPanel>
     </Grid>
 </Window>

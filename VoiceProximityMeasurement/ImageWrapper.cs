@@ -13,7 +13,6 @@ namespace AutoGenerateSnellenVisionChart
         public double ImageWidth { get; set; }
         public double ImageHeight { get; set; }
         public string CorrectAnswer { get; set; }
-
     }
 
 }

@@ -101,5 +101,17 @@ namespace VoiceProximityMeasurement.ViewModel
                 OnPropertyChanged(nameof(LoadedImagesNames));
             }
         }
+
+        private List<string> _loadedResult = new List<string>();
+
+        public List<string> LoadedResult
+        {
+            get { return _loadedResult; }
+            set
+            {
+                _loadedResult = value;
+                OnPropertyChanged(nameof(LoadedResult));
+            }
+        }
     }
 }
