@@ -212,3 +212,17 @@ D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\De
 D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.pdb
 D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.genruntimeconfig.cache
 D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\ref\VoiceProximityMeasurement.dll
+W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\EPPlus.dll
+W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\EPPlus.Interfaces.dll
+W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\EPPlus.System.Drawing.dll
+W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.dll
+W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Json.dll
+W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.Primitives.dll
+W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\System.Security.Cryptography.Pkcs.dll
+W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
