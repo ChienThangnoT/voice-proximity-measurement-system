@@ -47,7 +47,8 @@
             <Button  Background="White" Margin="0,0,20,15" Width="100" Click="Button_Click" Content="{Binding StartStop, Mode=TwoWay}"></Button>
             <Button  Background="White" Margin="0,0,20,15" Width="100" Content="Clear" Click="ClearText"></Button>
             <Button  Background="White" Margin="0,0,20,15" Width="100" Content="Generate Chart" Click="GenerateChart_Click"></Button>
-            <Button Background="White" Margin="0,0,20,15" Width="150" Content="Export to Excel" Click="ExportToExcelButton_Click"></Button>
+           
+            <Button Background="White" Margin="0,0,20,15" Width="150" Content="Result" Click="OpenResult"></Button>
         </StackPanel>
     </Grid>
 </Window>

@@ -284,5 +284,13 @@ namespace VoiceProximityMeasurement
             // Then export to Excel
             ExportToExcel();
         }
+
+        private void OpenResult(object sender, RoutedEventArgs e)
+        {
+            ExportToExcelButton_Click(sender, e);
+            Result result = new Result();
+            result.Show();
+            this.Close();
+        }
     }
 }
