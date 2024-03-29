@@ -22,6 +22,8 @@ namespace VoiceProximityMeasurement
 
         private string _subscriptionKey = "2a0f03ac052147cb808fa799634b1209";
         private string _serviceRegion = "southeastasia";
+        private int loop = 2;
+        private int countdownTime = 10;
 
         private SpeechConfig _config;
         private SpeechRecognizer _recognizer;
@@ -62,9 +64,8 @@ namespace VoiceProximityMeasurement
 
         private async void GenerateChart_Click(object sender, RoutedEventArgs e)
         {
-            _mainVM.Images.Clear();
-            int countdownTime = 20;
-            for (int i = 0; i < 8; i++)
+            _mainVM.Images.Clear();           
+            for (int i = 0; i < loop; i++)
             {
                 LoadRandomImages(i);
                 for (int j = countdownTime; j >= 0; j--)
@@ -72,6 +73,8 @@ namespace VoiceProximityMeasurement
                     UpdateCountdown(j);
                     await Task.Delay(1000);
                 }
+                _mainVM.LoadedResult.Add(_mainVM.Transcribed);
+                _mainVM.Transcribed = string.Empty;
             }
         }
 
@@ -83,7 +86,7 @@ namespace VoiceProximityMeasurement
             });
         }
 
-        private void LoadRandomImages(int loop)
+        private void LoadRandomImages(int round)
         {
             _mainVM.Images.Clear();
             // Get the path of the Img folder
@@ -102,12 +105,12 @@ namespace VoiceProximityMeasurement
 
             string loadedImageNames = "";
 
-            // Choose 10 random images from the Img folder
+            // Choose random images from the Img folder
             for (int i = 0; i < 6; i++)
             {
                 string randomImagePath = imagePaths[rng.Next(imagePaths.Length)];
                 BitmapImage bitmap = new BitmapImage(new Uri(randomImagePath, UriKind.RelativeOrAbsolute));
-                double scaleFactor = 1.0 - (loop * 0.1);
+                double scaleFactor = 1.0 - (round * 0.1);
                 double newWidth = bitmap.PixelWidth * scaleFactor;
                 double newHeight = bitmap.PixelHeight * scaleFactor;
 
@@ -118,7 +121,8 @@ namespace VoiceProximityMeasurement
                 {
                     Bitmap = bitmap,
                     ImageWidth = newWidth,
-                    ImageHeight = newHeight
+                    ImageHeight = newHeight,
+                    CorrectAnswer = Path.GetFileNameWithoutExtension(randomImagePath)
                 });
 
                 string imageName = Path.GetFileNameWithoutExtension(randomImagePath);
@@ -133,7 +137,7 @@ namespace VoiceProximityMeasurement
             // Append the concatenated image names to the LoadedImagesNames list
             _mainVM.LoadedImagesNames.Add(loadedImageNames);
 
-            MessageBox.Show("Loaded image names: " + loadedImageNames);
+            //MessageBox.Show("Loaded image names: " + loadedImageNames);
         }
 
         private async void Button_Click(object sender, RoutedEventArgs e)
@@ -203,12 +207,7 @@ namespace VoiceProximityMeasurement
 
         private void Recognizer_Recognizing(object sender, SpeechRecognitionEventArgs e)
         {
-            //_mainVM.Speech = e.Result.Text;
-            if (!string.IsNullOrWhiteSpace(e.Result.Text))
-            {
-                // Ghi chú: Bạn có thể cần xử lý chuỗi ngay tại đây nếu muốn.
-                _mainVM.Transcribed += e.Result.Text + ", ";
-            }
+            _mainVM.Speech = e.Result.Text;
         }
 
         private void ClearText(object sender, RoutedEventArgs e)
@@ -230,17 +229,23 @@ namespace VoiceProximityMeasurement
                 worksheet.Cells["B1"].Value = "Picture Answer";
 
                 // Assuming _mainVM.Images and _mainVM.Transcribed are ready to be processed
-                var answers = _mainVM.Transcribed.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries)
-                               .Select(ans => ans.Trim())
-                               .ToList();
+                //var answers = _mainVM.Transcribed.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries)
+                //               .Select(ans => ans.Trim())
+                //               .ToList();
 
-                for (int i = 0; i < _mainVM.Images.Count && i < answers.Count; i++)
+                //for (int i = 0; i < _mainVM.Images.Count && i < answers.Count; i++)
+                //{
+                //    worksheet.Cells[i + 2, 1].Value = _mainVM.Images[i].CorrectAnswer; // Câu hỏi
+                //    if (i < answers.Count)
+                //    {
+                //        worksheet.Cells[i + 2, 2].Value = answers[i]; // Câu trả lời
+                //    }
+                //}
+
+                for (int i = 0; i < loop; i++)
                 {
-                    worksheet.Cells[i + 2, 1].Value = _mainVM.Images[i].CorrectAnswer; // Câu hỏi
-                    if (i < answers.Count)
-                    {
-                        worksheet.Cells[i + 2, 2].Value = answers[i]; // Câu trả lời
-                    }
+                    worksheet.Cells[i + 2, 1].Value = _mainVM.LoadedImagesNames[i];
+                    worksheet.Cells[i + 2, 2].Value = _mainVM.LoadedResult[i];                  
                 }
 
                 // Attempt to save
@@ -274,7 +279,7 @@ namespace VoiceProximityMeasurement
             // Existing logic to generate the chart...
 
             // Process final results before exporting
-            ProcessFinalResults();
+            //ProcessFinalResults();
 
             // Then export to Excel
             ExportToExcel();

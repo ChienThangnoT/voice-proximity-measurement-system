@@ -1705,19 +1705,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ACER\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\PROJECT_TEAM_PRN_V2\\voice-proximity-measurement-system\\VoiceProximityMeasurement\\VoiceProximityMeasurement.csproj",
+      "projectUniqueName": "D:\\#HOC DE\\#StudyDocument\\Semester 7\\branch dat\\VoiceProximityMeasurement\\VoiceProximityMeasurement.csproj",
       "projectName": "VoiceProximityMeasurement",
-      "projectPath": "F:\\PROJECT_TEAM_PRN_V2\\voice-proximity-measurement-system\\VoiceProximityMeasurement\\VoiceProximityMeasurement.csproj",
-      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "F:\\PROJECT_TEAM_PRN_V2\\voice-proximity-measurement-system\\VoiceProximityMeasurement\\obj\\",
+      "projectPath": "D:\\#HOC DE\\#StudyDocument\\Semester 7\\branch dat\\VoiceProximityMeasurement\\VoiceProximityMeasurement.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "D:\\#HOC DE\\#StudyDocument\\Semester 7\\branch dat\\VoiceProximityMeasurement\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1737,11 +1742,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1776,7 +1776,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
