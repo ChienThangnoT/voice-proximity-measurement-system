@@ -83,7 +83,8 @@ namespace VoiceProximityMeasurement
                             PictureAnswer = answer,
                             MatchingElements = $"{matchingWords} / {questionWords.Length}",
                             MatchPercentage = $"{matchPercentage:N2}%",
-                            DegreeOfMyopia = degreesOfMyopia[row - 2].ToString()
+                            DegreeOfMyopia = $"4/{degreesOfMyopia[row - 2]}"
+
                         });
                     }
 
