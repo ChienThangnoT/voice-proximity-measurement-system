@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using AutoGenerateSnellenVisionChart;
 using Microsoft.CognitiveServices.Speech;
+using OfficeOpenXml;
 using VoiceProximityMeasurement.ViewModel;
 
 namespace VoiceProximityMeasurement
@@ -21,6 +22,8 @@ namespace VoiceProximityMeasurement
 
         private string _subscriptionKey = "2a0f03ac052147cb808fa799634b1209";
         private string _serviceRegion = "southeastasia";
+        private int loop = 2;
+        private int countdownTime = 10;
 
         private SpeechConfig _config;
         private SpeechRecognizer _recognizer;
@@ -61,9 +64,8 @@ namespace VoiceProximityMeasurement
 
         private async void GenerateChart_Click(object sender, RoutedEventArgs e)
         {
-            _mainVM.Images.Clear();
-            int countdownTime = 20;
-            for (int i = 0; i < 8; i++)
+            _mainVM.Images.Clear();           
+            for (int i = 0; i < loop; i++)
             {
                 LoadRandomImages(i);
                 for (int j = countdownTime; j >= 0; j--)
@@ -71,6 +73,8 @@ namespace VoiceProximityMeasurement
                     UpdateCountdown(j);
                     await Task.Delay(1000);
                 }
+                _mainVM.LoadedResult.Add(_mainVM.Transcribed);
+                _mainVM.Transcribed = string.Empty;
             }
         }
 
@@ -78,11 +82,11 @@ namespace VoiceProximityMeasurement
         {
             Dispatcher.Invoke(() =>
             {
-                CountdownText.Text = $"Đếm ngược: {secondsLeft}";
+                CountdownText.Text = $"Time out: {secondsLeft}";
             });
         }
 
-        private void LoadRandomImages(int loop)
+        private void LoadRandomImages(int round)
         {
             _mainVM.Images.Clear();
             // Get the path of the Img folder
@@ -99,12 +103,14 @@ namespace VoiceProximityMeasurement
 
             Random rng = new Random();
 
-            // Choose 10 random images from the Img folder
+            string loadedImageNames = "";
+
+            // Choose random images from the Img folder
             for (int i = 0; i < 6; i++)
             {
                 string randomImagePath = imagePaths[rng.Next(imagePaths.Length)];
                 BitmapImage bitmap = new BitmapImage(new Uri(randomImagePath, UriKind.RelativeOrAbsolute));
-                double scaleFactor = 1.0 - (loop * 0.1);
+                double scaleFactor = 1.0 - (round * 0.1);
                 double newWidth = bitmap.PixelWidth * scaleFactor;
                 double newHeight = bitmap.PixelHeight * scaleFactor;
 
@@ -115,9 +121,23 @@ namespace VoiceProximityMeasurement
                 {
                     Bitmap = bitmap,
                     ImageWidth = newWidth,
-                    ImageHeight = newHeight
+                    ImageHeight = newHeight,
+                    CorrectAnswer = Path.GetFileNameWithoutExtension(randomImagePath)
                 });
+
+                string imageName = Path.GetFileNameWithoutExtension(randomImagePath);
+                loadedImageNames += imageName + ",";
             }
+            // Remove the trailing comma, if any
+            if (!string.IsNullOrEmpty(loadedImageNames))
+            {
+                loadedImageNames = loadedImageNames.TrimEnd(',');
+            }
+
+            // Append the concatenated image names to the LoadedImagesNames list
+            _mainVM.LoadedImagesNames.Add(loadedImageNames);
+
+            //MessageBox.Show("Loaded image names: " + loadedImageNames);
         }
 
         private async void Button_Click(object sender, RoutedEventArgs e)
@@ -194,6 +214,75 @@ namespace VoiceProximityMeasurement
         {
             _mainVM.Speech = string.Empty;
             _mainVM.Transcribed = string.Empty;
+        }
+
+        private void ExportToExcel()
+        {
+            // Setup Excel package
+            ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
+            FileInfo fi = new FileInfo(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Answer.xlsx"));
+
+            using (var package = new ExcelPackage(fi))
+            {
+                var worksheet = package.Workbook.Worksheets.FirstOrDefault() ?? package.Workbook.Worksheets.Add("Sheet1");
+                worksheet.Cells["A1"].Value = "Picture Question";
+                worksheet.Cells["B1"].Value = "Picture Answer";
+
+                // Assuming _mainVM.Images and _mainVM.Transcribed are ready to be processed
+                //var answers = _mainVM.Transcribed.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries)
+                //               .Select(ans => ans.Trim())
+                //               .ToList();
+
+                //for (int i = 0; i < _mainVM.Images.Count && i < answers.Count; i++)
+                //{
+                //    worksheet.Cells[i + 2, 1].Value = _mainVM.Images[i].CorrectAnswer; // Câu hỏi
+                //    if (i < answers.Count)
+                //    {
+                //        worksheet.Cells[i + 2, 2].Value = answers[i]; // Câu trả lời
+                //    }
+                //}
+
+                for (int i = 0; i < loop; i++)
+                {
+                    worksheet.Cells[i + 2, 1].Value = _mainVM.LoadedImagesNames[i];
+                    worksheet.Cells[i + 2, 2].Value = _mainVM.LoadedResult[i];                  
+                }
+
+                // Attempt to save
+                try
+                {
+                    package.Save();
+                    MessageBox.Show("Exported to Excel successfully!");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Failed to save the Excel file. Error: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+        }
+
+
+        private void ProcessFinalResults()
+        {
+            var validCommands = new HashSet<string> { "Up", "Down", "Right", "Left" };
+            var processedResults = _mainVM.Transcribed
+                .Split(new[] { ' ', ',', '.' }, StringSplitOptions.RemoveEmptyEntries)
+                .Where(result => validCommands.Contains(result, StringComparer.OrdinalIgnoreCase))
+                .ToList();
+
+            // Now, reconstruct the _mainVM.Transcribed with only valid results.
+            _mainVM.Transcribed = string.Join(", ", processedResults);
+        }
+
+        private void ExportToExcelButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Existing logic to generate the chart...
+
+            // Process final results before exporting
+            //ProcessFinalResults();
+
+            // Then export to Excel
+            ExportToExcel();
         }
     }
 }

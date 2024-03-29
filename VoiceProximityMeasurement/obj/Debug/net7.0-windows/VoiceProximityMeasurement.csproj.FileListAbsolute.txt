@@ -105,3 +105,352 @@ W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Deb
 W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Img\left.jpg
 W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Img\right.jpg
 W:\Ses7\PRN221\VoiceProximityMeasurementSystem\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Img\up.jpg
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\VoiceProximityMeasurement.exe
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Img\down.jpg
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Img\left.jpg
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Img\right.jpg
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Img\up.jpg
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\VoiceProximityMeasurement.deps.json
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\VoiceProximityMeasurement.runtimeconfig.json
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\VoiceProximityMeasurement.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\VoiceProximityMeasurement.pdb
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.CognitiveServices.Speech.csharp.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm\native\libMicrosoft.CognitiveServices.Speech.core.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm64\native\libMicrosoft.CognitiveServices.Speech.core.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x64\native\libMicrosoft.CognitiveServices.Speech.core.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x64\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x64\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x86\native\libMicrosoft.CognitiveServices.Speech.core.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x86\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x86\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x86\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x86\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\centos7-x64\native\libMicrosoft.CognitiveServices.Speech.core.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\centos7-x64\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\centos7-x64\native\libMicrosoft.CognitiveServices.Speech.extension.codec.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\centos7-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\centos7-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\centos7-x64\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\ios-arm64\native\libMicrosoft.CognitiveServices.Speech.core.a
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\iossimulator-arm64\native\libMicrosoft.CognitiveServices.Speech.core.a
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\iossimulator-x64\native\libMicrosoft.CognitiveServices.Speech.core.a
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.core.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.extension.codec.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.core.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.codec.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.core.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.extension.codec.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\maccatalyst-arm64\native\libMicrosoft.CognitiveServices.Speech.core.a
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\maccatalyst-x64\native\libMicrosoft.CognitiveServices.Speech.core.a
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\osx-arm64\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\osx-arm64\native\libMicrosoft.CognitiveServices.Speech.core.dylib
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\osx-x64\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libMicrosoft.CognitiveServices.Speech.core.dylib
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm\native\Microsoft.CognitiveServices.Speech.core.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm\native\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm\native\Microsoft.CognitiveServices.Speech.extension.kws.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm\native\Microsoft.CognitiveServices.Speech.extension.kws.ort.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm\native\Microsoft.CognitiveServices.Speech.extension.lu.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm64\native\Microsoft.CognitiveServices.Speech.core.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm64\native\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm64\native\Microsoft.CognitiveServices.Speech.extension.kws.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm64\native\Microsoft.CognitiveServices.Speech.extension.kws.ort.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm64\native\Microsoft.CognitiveServices.Speech.extension.lu.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.core.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.codec.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.kws.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.kws.ort.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.lu.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.core.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.codec.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.kws.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.kws.ort.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.lu.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.csproj.AssemblyReference.cache
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\App.g.cs
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement_Content.g.cs
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement_MarkupCompile.cache
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement_MarkupCompile.lref
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\MainWindow.baml
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.g.resources
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.GeneratedMSBuildEditorConfig.editorconfig
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.AssemblyInfoInputs.cache
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.AssemblyInfo.cs
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.csproj.CoreCompileInputs.cache
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.sourcelink.json
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.csproj.CopyComplete
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\refint\VoiceProximityMeasurement.dll
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.pdb
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.genruntimeconfig.cache
+D:\#HOC DE\#StudyDocument\Semester 7\ASSIGNMENT\VoiceProximityMeasurement\obj\Debug\net7.0-windows\ref\VoiceProximityMeasurement.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\VoiceProximityMeasurement.exe
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Img\down.jpg
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Img\left.jpg
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Img\right.jpg
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Img\up.jpg
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\VoiceProximityMeasurement.deps.json
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\VoiceProximityMeasurement.runtimeconfig.json
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\VoiceProximityMeasurement.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\VoiceProximityMeasurement.pdb
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.CognitiveServices.Speech.csharp.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm\native\libMicrosoft.CognitiveServices.Speech.core.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm64\native\libMicrosoft.CognitiveServices.Speech.core.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x64\native\libMicrosoft.CognitiveServices.Speech.core.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x64\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x64\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x86\native\libMicrosoft.CognitiveServices.Speech.core.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x86\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x86\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x86\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x86\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\centos7-x64\native\libMicrosoft.CognitiveServices.Speech.core.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\centos7-x64\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\centos7-x64\native\libMicrosoft.CognitiveServices.Speech.extension.codec.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\centos7-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\centos7-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\centos7-x64\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\ios-arm64\native\libMicrosoft.CognitiveServices.Speech.core.a
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\iossimulator-arm64\native\libMicrosoft.CognitiveServices.Speech.core.a
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\iossimulator-x64\native\libMicrosoft.CognitiveServices.Speech.core.a
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.core.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.extension.codec.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.core.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.codec.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.core.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.extension.codec.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\maccatalyst-arm64\native\libMicrosoft.CognitiveServices.Speech.core.a
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\maccatalyst-x64\native\libMicrosoft.CognitiveServices.Speech.core.a
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\osx-arm64\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\osx-arm64\native\libMicrosoft.CognitiveServices.Speech.core.dylib
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\osx-x64\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libMicrosoft.CognitiveServices.Speech.core.dylib
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm\native\Microsoft.CognitiveServices.Speech.core.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm\native\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm\native\Microsoft.CognitiveServices.Speech.extension.kws.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm\native\Microsoft.CognitiveServices.Speech.extension.kws.ort.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm\native\Microsoft.CognitiveServices.Speech.extension.lu.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm64\native\Microsoft.CognitiveServices.Speech.core.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm64\native\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm64\native\Microsoft.CognitiveServices.Speech.extension.kws.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm64\native\Microsoft.CognitiveServices.Speech.extension.kws.ort.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm64\native\Microsoft.CognitiveServices.Speech.extension.lu.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.core.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.codec.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.kws.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.kws.ort.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.lu.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.core.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.codec.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.kws.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.kws.ort.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.lu.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.csproj.AssemblyReference.cache
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\obj\Debug\net7.0-windows\MainWindow.g.cs
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\obj\Debug\net7.0-windows\App.g.cs
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement_Content.g.cs
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement_MarkupCompile.cache
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement_MarkupCompile.lref
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\obj\Debug\net7.0-windows\MainWindow.baml
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.g.resources
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.GeneratedMSBuildEditorConfig.editorconfig
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.AssemblyInfoInputs.cache
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.AssemblyInfo.cs
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.csproj.CoreCompileInputs.cache
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.sourcelink.json
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoicePro.1D69C3B9.Up2Date
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\obj\Debug\net7.0-windows\refint\VoiceProximityMeasurement.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.pdb
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.genruntimeconfig.cache
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\obj\Debug\net7.0-windows\ref\VoiceProximityMeasurement.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\EPPlus.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\EPPlus.Interfaces.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\EPPlus.System.Drawing.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Json.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.Primitives.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\System.Security.Cryptography.Pkcs.dll
+F:\PROJECT_TEAM_PRN_V2\voice-proximity-measurement-system\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\VoiceProximityMeasurement.exe
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Img\down.jpg
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Img\left.jpg
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Img\right.jpg
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Img\up.jpg
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\VoiceProximityMeasurement.deps.json
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\VoiceProximityMeasurement.runtimeconfig.json
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\VoiceProximityMeasurement.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\VoiceProximityMeasurement.pdb
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\EPPlus.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\EPPlus.Interfaces.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\EPPlus.System.Drawing.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.CognitiveServices.Speech.csharp.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.Extensions.Primitives.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm\native\libMicrosoft.CognitiveServices.Speech.core.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm64\native\libMicrosoft.CognitiveServices.Speech.core.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x64\native\libMicrosoft.CognitiveServices.Speech.core.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x64\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x64\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x86\native\libMicrosoft.CognitiveServices.Speech.core.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x86\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x86\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x86\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\android-x86\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\centos7-x64\native\libMicrosoft.CognitiveServices.Speech.core.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\centos7-x64\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\centos7-x64\native\libMicrosoft.CognitiveServices.Speech.extension.codec.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\centos7-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\centos7-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\centos7-x64\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\ios-arm64\native\libMicrosoft.CognitiveServices.Speech.core.a
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\iossimulator-arm64\native\libMicrosoft.CognitiveServices.Speech.core.a
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\iossimulator-x64\native\libMicrosoft.CognitiveServices.Speech.core.a
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.core.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.extension.codec.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.core.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.codec.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.core.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.extension.codec.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.extension.lu.so
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\maccatalyst-arm64\native\libMicrosoft.CognitiveServices.Speech.core.a
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\maccatalyst-x64\native\libMicrosoft.CognitiveServices.Speech.core.a
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\osx-arm64\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\osx-arm64\native\libMicrosoft.CognitiveServices.Speech.core.dylib
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\osx-x64\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libMicrosoft.CognitiveServices.Speech.core.dylib
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm\native\Microsoft.CognitiveServices.Speech.core.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm\native\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm\native\Microsoft.CognitiveServices.Speech.extension.kws.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm\native\Microsoft.CognitiveServices.Speech.extension.kws.ort.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm\native\Microsoft.CognitiveServices.Speech.extension.lu.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm64\native\Microsoft.CognitiveServices.Speech.core.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm64\native\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm64\native\Microsoft.CognitiveServices.Speech.extension.kws.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm64\native\Microsoft.CognitiveServices.Speech.extension.kws.ort.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-arm64\native\Microsoft.CognitiveServices.Speech.extension.lu.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.core.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.codec.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.kws.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.kws.ort.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.lu.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.core.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.codec.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.kws.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.kws.ort.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.lu.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.csproj.AssemblyReference.cache
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\obj\Debug\net7.0-windows\App.g.cs
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement_Content.g.cs
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement_MarkupCompile.cache
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement_MarkupCompile.lref
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\obj\Debug\net7.0-windows\MainWindow.baml
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.g.resources
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.GeneratedMSBuildEditorConfig.editorconfig
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.AssemblyInfoInputs.cache
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.AssemblyInfo.cs
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.csproj.CoreCompileInputs.cache
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.sourcelink.json
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.csproj.CopyComplete
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\obj\Debug\net7.0-windows\refint\VoiceProximityMeasurement.dll
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.pdb
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\obj\Debug\net7.0-windows\VoiceProximityMeasurement.genruntimeconfig.cache
+D:\#HOC DE\#StudyDocument\Semester 7\branch dat\VoiceProximityMeasurement\obj\Debug\net7.0-windows\ref\VoiceProximityMeasurement.dll
