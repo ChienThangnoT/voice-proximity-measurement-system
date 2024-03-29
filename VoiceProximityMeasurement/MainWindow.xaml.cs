@@ -73,7 +73,7 @@ namespace VoiceProximityMeasurement
                     UpdateCountdown(j);
                     await Task.Delay(1000);
                 }
-                _mainVM.LoadedResult.Add(_mainVM.Transcribed);
+                _mainVM.LoadedResult.Add(ProcessTranscribed(_mainVM.Transcribed));
                 _mainVM.Transcribed = string.Empty;
             }
         }
@@ -272,6 +272,18 @@ namespace VoiceProximityMeasurement
 
             // Now, reconstruct the _mainVM.Transcribed with only valid results.
             _mainVM.Transcribed = string.Join(", ", processedResults);
+        }
+        private string ProcessTranscribed(string transcribed)
+        {
+            var validCommands = new HashSet<string> { "Up", "Down", "Right", "Left" };
+            var processedResults = transcribed
+                .Split(new[] { ' ', ',', '.' }, StringSplitOptions.RemoveEmptyEntries)
+                .Select(word => validCommands.Contains(word, StringComparer.OrdinalIgnoreCase) ? word : "")
+                .ToList();
+            
+            string result = string.Join(", ", processedResults).ToLower();
+            MessageBox.Show($"Loaded new transcribed : '{result}'");
+            return result;
         }
 
         private void ExportToExcelButton_Click(object sender, RoutedEventArgs e)
