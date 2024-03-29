@@ -22,7 +22,7 @@ namespace VoiceProximityMeasurement
 
         private string _subscriptionKey = "2a0f03ac052147cb808fa799634b1209";
         private string _serviceRegion = "southeastasia";
-        private int loop = 1;
+        private int loop = 8;
         private int countdownTime = 15;
 
         private SpeechConfig _config;
