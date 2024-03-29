@@ -26,10 +26,20 @@ namespace VoiceProximityMeasurement
             LoadData();
         }
 
+        private string GetExcelFilePath()
+        {
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+
+            string filePath = System.IO.Path.Combine(baseDirectory, "Answer.xlsx");
+
+            return filePath;
+        }
+
+
         private void LoadData()
         {
             OfficeOpenXml.ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
-            var filePath = "W:\\Ses7\\PRN221\\VoiceProximityMeasurementSystem\\VoiceProximityMeasurement\\bin\\Debug\\net7.0-windows\\Answer.xlsx";
+            var filePath = GetExcelFilePath();
             var data = new List<ResultData>();
             var highestPercentage = 0.0;
             var highestPercentageRow = -1;
@@ -37,7 +47,7 @@ namespace VoiceProximityMeasurement
 
             using (var package = new OfficeOpenXml.ExcelPackage(new FileInfo(filePath)))
             {
-                var worksheet = package.Workbook.Worksheets.FirstOrDefault(); // Lấy bảng tính đầu tiên
+                var worksheet = package.Workbook.Worksheets.FirstOrDefault();
                 if (worksheet != null)
                 {
                     int rowCount = worksheet.Dimension.Rows;
@@ -73,14 +83,14 @@ namespace VoiceProximityMeasurement
                             PictureAnswer = answer,
                             MatchingElements = $"{matchingWords} / {questionWords.Length}",
                             MatchPercentage = $"{matchPercentage:N2}%",
-                            DegreeOfMyopia = degreesOfMyopia[row - 2].ToString() // Cập nhật giá trị độ cận
+                            DegreeOfMyopia = degreesOfMyopia[row - 2].ToString()
                         });
                     }
 
                 }
                 else
                 {
-                    MessageBox.Show("Worksheet not found in the Excel file.");
+                    //MessageBox.Show("Worksheet not found in the Excel file.");
                 }
             }
 

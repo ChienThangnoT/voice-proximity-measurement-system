@@ -22,7 +22,7 @@ namespace VoiceProximityMeasurement
 
         private string _subscriptionKey = "2a0f03ac052147cb808fa799634b1209";
         private string _serviceRegion = "southeastasia";
-        private int loop = 8;
+        private int loop = 1;
         private int countdownTime = 15;
 
         private SpeechConfig _config;
@@ -35,11 +35,11 @@ namespace VoiceProximityMeasurement
             InitializeComponent();
             DataContext = _mainVM;
 
-            // Initialize Speech recognizer
+            // initialize Speech recognizer
             _config = SpeechConfig.FromSubscription(_subscriptionKey, _serviceRegion);
             _recognizer = new SpeechRecognizer(_config);
 
-            // Subscribe to Speech events
+            // subscribe to Speech events
             _recognizer.Recognizing += Recognizer_Recognizing;
             _recognizer.Recognized += Recognizer_Recognized;
             _recognizer.Canceled += Recognizer_Canceled;
@@ -51,14 +51,14 @@ namespace VoiceProximityMeasurement
 
         private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            // Unsubscribe from Speech events
+            // unsubscribe from Speech events
             _recognizer.Recognizing -= Recognizer_Recognizing;
             _recognizer.Recognized -= Recognizer_Recognized;
             _recognizer.Canceled -= Recognizer_Canceled;
             _recognizer.SessionStarted -= Recognizer_SessionStarted;
             _recognizer.SessionStopped -= Recognizer_SessionStopped;
 
-            // Dispose Speech recognizer
+            // dispose Speech recognizer
             _recognizer.Dispose();
         }
 
@@ -83,9 +83,17 @@ namespace VoiceProximityMeasurement
         {
             Dispatcher.Invoke(() =>
             {
-                RemainingIterationsText.Text = $"Number of remaining measurements:   {remainingIterations}";
+                RemainingIterationsText.Text = $"Number of remaining measurements: {remainingIterations}";
+
+                ResultButton.IsEnabled = remainingIterations == 0;
+
+                if (remainingIterations == 0)
+                {
+                    MessageBox.Show("Proximity measurement complete, click Result to see the result!");
+                }
             });
         }
+
 
         private void UpdateCountdown(int secondsLeft)
         {
@@ -98,10 +106,10 @@ namespace VoiceProximityMeasurement
         private void LoadRandomImages(int round)
         {
             _mainVM.Images.Clear();
-            // Get the path of the Img folder
+            // get the path of the Img folder
             string imgFolderPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Img");
 
-            // Get all image paths in the Img folder
+            // get all image paths in the Img folder
             string[] imagePaths = Directory.GetFiles(imgFolderPath, "*.jpg");
 
             if (imagePaths.Length == 0)
@@ -114,7 +122,6 @@ namespace VoiceProximityMeasurement
 
             string loadedImageNames = "";
 
-            // Choose random images from the Img folder
             for (int i = 0; i < 6; i++)
             {
                 string randomImagePath = imagePaths[rng.Next(imagePaths.Length)];
@@ -123,7 +130,6 @@ namespace VoiceProximityMeasurement
                 double newWidth = bitmap.PixelWidth * scaleFactor;
                 double newHeight = bitmap.PixelHeight * scaleFactor;
 
-                // Create a TransformedBitmap to resize the image
                 TransformedBitmap transformedBitmap = new TransformedBitmap(bitmap, new ScaleTransform(newWidth / bitmap.PixelWidth, newHeight / bitmap.PixelHeight));
 
                 _mainVM.Images.Add(new ImageWrapper
@@ -137,13 +143,11 @@ namespace VoiceProximityMeasurement
                 string imageName = Path.GetFileNameWithoutExtension(randomImagePath);
                 loadedImageNames += imageName + ",";
             }
-            // Remove the trailing comma, if any
             if (!string.IsNullOrEmpty(loadedImageNames))
             {
                 loadedImageNames = loadedImageNames.TrimEnd(',');
             }
 
-            // Append the concatenated image names to the LoadedImagesNames list
             _mainVM.LoadedImagesNames.Add(loadedImageNames);
 
             //MessageBox.Show("Loaded image names: " + loadedImageNames);
@@ -158,16 +162,15 @@ namespace VoiceProximityMeasurement
 
                 _stopRecognition = new TaskCompletionSource<int>();
 
-                // Starts continuous recognition. Uses StopContinuousRecognitionAsync() to stop recognition.
+                // Starts continuous recog
                 await _recognizer.StartContinuousRecognitionAsync().ConfigureAwait(false);
 
-                // Waits for completion.
-                // Use Task.WaitAny to keep the task rooted.
+                // Waits for completion
                 Task.WaitAny(new[] { _stopRecognition.Task });
             }
             else if (_mainVM.StartStop == "Stop")
             {
-                // Stops recognition.
+                // Stops recog
                 await _recognizer.StopContinuousRecognitionAsync().ConfigureAwait(false);
 
                 _mainVM.StartStop = "Start";
@@ -299,12 +302,6 @@ namespace VoiceProximityMeasurement
 
         private void ExportToExcelButton_Click(object sender, RoutedEventArgs e)
         {
-            // Existing logic to generate the chart...
-
-            // Process final results before exporting
-            //ProcessFinalResults();
-
-            // Then export to Excel
             ExportToExcel();
         }
 
