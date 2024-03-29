@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "W:\\Ses7\\PRN221\\VoiceProximityMeasurementSystem\\VoiceProximityMeasurement\\VoiceProximityMeasurement.csproj": {}
+    "F:\\PROJECT_TEAM_PRN_V2\\voice-proximity-measurement-system\\VoiceProximityMeasurement\\VoiceProximityMeasurement.csproj": {}
   },
   "projects": {
-    "W:\\Ses7\\PRN221\\VoiceProximityMeasurementSystem\\VoiceProximityMeasurement\\VoiceProximityMeasurement.csproj": {
+    "F:\\PROJECT_TEAM_PRN_V2\\voice-proximity-measurement-system\\VoiceProximityMeasurement\\VoiceProximityMeasurement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\Ses7\\PRN221\\VoiceProximityMeasurementSystem\\VoiceProximityMeasurement\\VoiceProximityMeasurement.csproj",
+        "projectUniqueName": "F:\\PROJECT_TEAM_PRN_V2\\voice-proximity-measurement-system\\VoiceProximityMeasurement\\VoiceProximityMeasurement.csproj",
         "projectName": "VoiceProximityMeasurement",
-        "projectPath": "W:\\Ses7\\PRN221\\VoiceProximityMeasurementSystem\\VoiceProximityMeasurement\\VoiceProximityMeasurement.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "W:\\Ses7\\PRN221\\VoiceProximityMeasurementSystem\\VoiceProximityMeasurement\\obj\\",
+        "projectPath": "F:\\PROJECT_TEAM_PRN_V2\\voice-proximity-measurement-system\\VoiceProximityMeasurement\\VoiceProximityMeasurement.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "F:\\PROJECT_TEAM_PRN_V2\\voice-proximity-measurement-system\\VoiceProximityMeasurement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,12 +34,21 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
             "Microsoft.CognitiveServices.Speech": {
               "target": "Package",
               "version": "[1.36.0, )"
@@ -64,7 +73,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
