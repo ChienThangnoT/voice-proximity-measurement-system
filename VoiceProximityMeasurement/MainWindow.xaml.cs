@@ -22,8 +22,8 @@ namespace VoiceProximityMeasurement
 
         private string _subscriptionKey = "2a0f03ac052147cb808fa799634b1209";
         private string _serviceRegion = "southeastasia";
-        private int loop = 2;
-        private int countdownTime = 10;
+        private int loop = 8;
+        private int countdownTime = 15;
 
         private SpeechConfig _config;
         private SpeechRecognizer _recognizer;
@@ -73,9 +73,18 @@ namespace VoiceProximityMeasurement
                     UpdateCountdown(j);
                     await Task.Delay(1000);
                 }
+                UpdateRemainingIterations(loop - i - 1);
                 _mainVM.LoadedResult.Add(ProcessTranscribed(_mainVM.Transcribed));
                 _mainVM.Transcribed = string.Empty;
             }
+        }
+
+        private void UpdateRemainingIterations(int remainingIterations)
+        {
+            Dispatcher.Invoke(() =>
+            {
+                RemainingIterationsText.Text = $"Number of remaining measurements:   {remainingIterations}";
+            });
         }
 
         private void UpdateCountdown(int secondsLeft)
@@ -225,6 +234,8 @@ namespace VoiceProximityMeasurement
             using (var package = new ExcelPackage(fi))
             {
                 var worksheet = package.Workbook.Worksheets.FirstOrDefault() ?? package.Workbook.Worksheets.Add("Sheet1");
+
+                worksheet.Cells.Clear();
                 worksheet.Cells["A1"].Value = "Picture Question";
                 worksheet.Cells["B1"].Value = "Picture Answer";
 
@@ -252,7 +263,7 @@ namespace VoiceProximityMeasurement
                 try
                 {
                     package.Save();
-                    MessageBox.Show("Exported to Excel successfully!");
+                    MessageBox.Show("Please wait for the results!");
                 }
                 catch (Exception ex)
                 {
@@ -282,7 +293,7 @@ namespace VoiceProximityMeasurement
                 .ToList();
             
             string result = string.Join(", ", processedResults).ToLower();
-            MessageBox.Show($"Loaded new transcribed : '{result}'");
+            //MessageBox.Show($"Your Answer : '{result}'");
             return result;
         }
 
@@ -296,6 +307,7 @@ namespace VoiceProximityMeasurement
             // Then export to Excel
             ExportToExcel();
         }
+
 
         private void OpenResult(object sender, RoutedEventArgs e)
         {

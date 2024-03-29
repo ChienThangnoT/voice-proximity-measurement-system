@@ -31,45 +31,64 @@ namespace VoiceProximityMeasurement
             OfficeOpenXml.ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
             var filePath = "W:\\Ses7\\PRN221\\VoiceProximityMeasurementSystem\\VoiceProximityMeasurement\\bin\\Debug\\net7.0-windows\\Answer.xlsx";
             var data = new List<ResultData>();
+            var highestPercentage = 0.0;
+            var highestPercentageRow = -1;
+            var degreesOfMyopia = new double[8] { 6.8, 6.4, 6.0, 5.6, 5.2, 4.8, 4.4, 4.0 };
 
             using (var package = new OfficeOpenXml.ExcelPackage(new FileInfo(filePath)))
             {
-                var worksheet = package.Workbook.Worksheets[0];
-                int rowCount = worksheet.Dimension.Rows;
-
-                for (int row = 2; row <= rowCount; row++)
+                var worksheet = package.Workbook.Worksheets.FirstOrDefault(); // Lấy bảng tính đầu tiên
+                if (worksheet != null)
                 {
-                    var question = worksheet.Cells[row, 1].Text.Trim();
-                    var answer = worksheet.Cells[row, 2].Text.Trim();
+                    int rowCount = worksheet.Dimension.Rows;
 
-                    var questionWords = question.Split(new[] { ' ', ',', '.' }, StringSplitOptions.RemoveEmptyEntries);
-                    var answerWords = new List<string>(answer.Split(new[] { ' ', ',', '.' }, StringSplitOptions.RemoveEmptyEntries));
-
-                    int matchingWords = 0;
-
-                    foreach (var word in questionWords)
+                    for (int row = 2; row <= rowCount; row++)
                     {
-                        if (answerWords.Contains(word, StringComparer.OrdinalIgnoreCase))
+                        var question = worksheet.Cells[row, 1].Text.Trim();
+                        var answer = worksheet.Cells[row, 2].Text.Trim();
+
+                        var questionWords = question.Split(new[] { ' ', ',', '.' }, StringSplitOptions.RemoveEmptyEntries);
+                        var answerWords = new List<string>(answer.Split(new[] { ' ', ',', '.' }, StringSplitOptions.RemoveEmptyEntries));
+
+                        int matchingWords = 0;
+                        foreach (var word in questionWords)
                         {
-                            matchingWords++;
-                            answerWords.Remove(word); // Loại bỏ từ đã khớp để không tính lại
+                            if (answerWords.Contains(word, StringComparer.OrdinalIgnoreCase))
+                            {
+                                matchingWords++;
+                                answerWords.Remove(word);
+                            }
                         }
+
+                        var matchPercentage = (double)matchingWords / questionWords.Length * 100;
+                        if (matchPercentage > highestPercentage)
+                        {
+                            highestPercentage = matchPercentage;
+                            highestPercentageRow = rowCount - row;
+                        }
+
+                        data.Add(new ResultData
+                        {
+                            PictureQuestion = question,
+                            PictureAnswer = answer,
+                            MatchingElements = $"{matchingWords} / {questionWords.Length}",
+                            MatchPercentage = $"{matchPercentage:N2}%",
+                            DegreeOfMyopia = degreesOfMyopia[row - 2].ToString() // Cập nhật giá trị độ cận
+                        });
                     }
 
-                    var matchPercentage = (double)matchingWords / questionWords.Length * 100;
-
-                    data.Add(new ResultData
-                    {
-                        PictureQuestion = question,
-                        PictureAnswer = answer,
-                        MatchingElements = $"{matchingWords} / {questionWords.Length}",
-                        MatchPercentage = $"{matchPercentage:N2}%"
-                    });
+                }
+                else
+                {
+                    MessageBox.Show("Worksheet not found in the Excel file.");
                 }
             }
 
             ResultsDataGrid.ItemsSource = data;
+
         }
+
+
 
         public class ResultData
         {
@@ -77,6 +96,7 @@ namespace VoiceProximityMeasurement
             public string PictureAnswer { get; set; }
             public string MatchingElements { get; set; }
             public string MatchPercentage { get; set; }
+            public string DegreeOfMyopia { get; set; }
         }
 
         private void CloseResult(object sender, RoutedEventArgs e)
